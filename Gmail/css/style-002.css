@@ -1,0 +1,87 @@
+body {
+ background-image: url("../img/sfondo-gmail.jpg");
+ color: white;
+}
+
+img {
+  width: 130px;
+}
+
+header {
+  position: relative;
+  height: 106px;
+}
+
+.logotype {
+ font-size: 30px;
+ /* height: 96.78px; */
+ line-height: 96.78px;
+ position: absolute;
+ left: 140px;
+ top: 0;
+}
+
+.container{
+ width: 1200px;
+ margin: auto;
+}
+
+.border-margin {
+  border-bottom: 1.5px solid white;
+  margin-bottom: 8px;
+
+}
+
+
+.circle {
+ border-radius: 50%;
+ background: orange;
+ padding: 10px;
+}
+
+hr {
+  border: 1px solid white;
+  background-color: white;
+}
+
+.star {
+ color: black;
+}
+
+.row {
+ border: 1px solid black;
+}
+
+.read {
+ background-color: lightgrey;
+}
+
+.unread {
+ background-color: white;
+}
+
+.row-left{
+   display: inline-block;
+   width: 20%;
+}
+.row-right{
+   display: inline-block;
+   width: 78%;
+}
+
+.oggetto {
+ color: black;
+}
+
+.corpo {
+ color: grey;
+}
+
+footer {
+ text-align: center;
+ font-size: 30px;
+}
+
+em {
+  font-size: 15px;
+}
